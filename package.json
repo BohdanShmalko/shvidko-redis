@@ -1,0 +1,30 @@
+{
+  "name": "svidko-redis",
+  "version": "1.0.0",
+  "description": "library for library \"shvidko\", which helps to save sessions in DBMS redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BohdanShmalko/shvidko-redis.git"
+  },
+  "keywords": [
+    "shvidko",
+    "redis",
+    "sessions"
+  ],
+  "author": "Bogdan Shmalko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BohdanShmalko/shvidko-redis/issues"
+  },
+  "homepage": "https://github.com/BohdanShmalko/shvidko-redis#readme",
+  "dependencies": {
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "shvidko": "^1.1.4"
+  }
+}
